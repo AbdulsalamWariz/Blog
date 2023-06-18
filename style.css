@@ -1,0 +1,60 @@
+*{
+    font-family: times new roman;
+}
+
+.hero {
+    background-image: url('writer.jpg');
+    background-color: grey;
+    background-blend-mode: multiply;
+    padding-top: 5%;
+}
+
+.hero h1{
+    font-size: 4rem;
+    text-align: center;
+   
+    color: white;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 35px;   
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#sec, form{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#sec span {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.segment2,
+.segment3,
+form,
+footer{
+    margin-top: 100px;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
